@@ -9,6 +9,10 @@ namespace BiddingSystem.Data
         {
         }
 
+        public DbSet<AuctionItem> AuctionItems { get; set; }
+        public DbSet<Bid> Bids { get; set; }
+        public DbSet<User> Users { get; set; }
+
        
     }
 }
